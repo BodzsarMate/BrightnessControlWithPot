@@ -17,6 +17,16 @@
 # 1. Lighting control
 Implementation code:
 ```py
+# LED code!
+T = 1
 
-
+#LED setting
+GPIO.setup(pin, GPIO.OUT)
+f = 80 # 50 hertz
+fill = 20 # fill 90%
+# activate pwm mode
+pinLed = 18
+GPIO.setup(pinLed, GPIO.OUT)
+pL = GPIO.PWM(pinLed,f)
+pL.start(0)
 ```
