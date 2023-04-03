@@ -10,8 +10,8 @@
   - The normalized variation is converted to the fill
   - We operate the LED
 3. displaying the fill factor on the seven-segment display
-  - import the display import and the communication 
-  - import String to operate the 7 segments display
+  - import the display import and the communication import
+  - String to operate the 7 segments display
   - display print to print the % on the display
 
 # 1. Lighting control
